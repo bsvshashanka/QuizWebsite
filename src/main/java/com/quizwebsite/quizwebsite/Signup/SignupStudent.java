@@ -1,5 +1,6 @@
-package com.quizwebsite.quizwebsite;
+package com.quizwebsite.quizwebsite.Signup;
 
+import com.quizwebsite.quizwebsite.JDBCConnect;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.Cookie;

@@ -1,5 +1,6 @@
 <%
     String username = session.getAttribute("username").toString();
-
+    String typeOfUser = session.getAttribute("typeOfUser").toString();
 %>
-Welcome <%=username%>!
+<%@include file="header.jsp"%>
+

@@ -1,5 +1,6 @@
-package com.quizwebsite.quizwebsite;
+package com.quizwebsite.quizwebsite.LoginValidate;
 
+import com.quizwebsite.quizwebsite.JDBCConnect;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
@@ -24,6 +25,7 @@ public class LoginValidateAdmin extends HttpServlet {
             if(rs.getString("password_").equals(password)){
                 HttpSession httpSession = request.getSession();
                 httpSession.setAttribute("username",username);
+                httpSession.setAttribute("typeOfUser","Admin");
                 redirected = true;
                 response.sendRedirect("dashboard.jsp");
             }

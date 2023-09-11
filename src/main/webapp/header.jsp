@@ -40,7 +40,7 @@
                 <a class="nav-link" href="index.jsp">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="createQuizServlet">Create a Quiz</a>
+                <a class="nav-link" href="isAdmin">Create a Quiz</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="myQuizzesServlet">My Quizzes</a>
@@ -62,7 +62,4 @@
         </div>
     </div>
 </nav>
-<body>
-
-</body>
 </html>
